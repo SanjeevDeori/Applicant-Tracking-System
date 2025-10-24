@@ -1,0 +1,111 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+
+# Build outputs
+dist/
+build/
+.expo/
+.expo-shared/
+.web-build/
+
+# Expo
+.expo/
+.expo-shared/
+.web-build/
+bundle/
+
+# React Native
+android/
+ios/
+*.xcworkspace
+*.xcuserdatad
+ios/Pods/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+
+# VSCode
+.vscode/
+
+# IDEs
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# Certificates
+*.cer
+*.crt
+*.p12
+
+# Secrets and keys
+keys.js
+config/keys.js
+
+# Local backend database
+backend/data/
+
+# Expo credentials
+*.jks
+
+# JetBrains
+*.iml
+
+# Misc
+coverage/
+coverage-final.json
+
+# Ignore build and debug folders for backend
+backend/node_modules/
+backend/dist/
+backend/build/
+
+# Ignore local IDE/editor config
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Ignore lock files for front-end apps (optional)
+my-app/node_modules/
+my-app/.vscode/
+my-app/.expo/
+my-app/.expo-shared/
+my-app/dist/
+my-app/build/
+
+# Ignore system specific files
+.DS_Store
+Thumbs.db
+
+# Keep this file tracked
+!.gitignore
